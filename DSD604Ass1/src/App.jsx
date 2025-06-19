@@ -63,7 +63,7 @@ function App() {
   };
   
   return (
-    <div className="container-fluid py-5">
+    <div className="main-game container-fluid py-5">
       <div className="row justify-content-center">
         <div className="col-12 col-md-10 col-lg-12">
           <div className="card shadow">

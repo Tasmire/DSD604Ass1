@@ -41,10 +41,47 @@
   color: #888;
 }
 
+.main-game {
+  width: 100%;
+  max-width: none;
+  margin: 0 auto;
+}
+
+.answer-lists-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+}
+
+.answer-list {
+  flex: 1 1 300px;
+  min-width: 400px;
+  min-height: 120px;
+}
+
 .answer-box {
   border: 1px solid #ccc;
   border-radius: 6px;
   padding: 10px;
   margin-bottom: 10px;
   background: #242424;
+}
+
+.correct-box {
+  border: 1px solid #4caf50;
+  background: #0a270b;
+}
+
+.incorrect-box {
+  border: 1px solid #f44336;
+  background: #330707;
+}
+
+.answer-link {
+  color: #61dafb;
+  text-decoration: none;
 }
