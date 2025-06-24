@@ -123,7 +123,7 @@ export default function MainGame() {
                                         }})}
                                     value={answerData.find((opt) => opt.value === answer) || null}
                                     onChange={handleAnswerChange}
-                                    placeholder={answer !== "" ? answer : "Select an Answer"}
+                                    placeholder={answer !== "" ? answer : "Select an answer"}
                                     controlShouldRenderValue={false}
                                     isDisabled={isAnsweredCorrectly}
                                 />
