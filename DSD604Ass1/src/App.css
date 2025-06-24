@@ -47,6 +47,21 @@
   margin: 0 auto;
 }
 
+.hint-button {
+  margin-top: 20px;
+}
+
+.hint-box {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.hint-box p {
+  margin: 5px;
+}
+
 .answer-lists-container {
   display: flex;
   gap: 2rem;
@@ -68,7 +83,6 @@
   border-radius: 6px;
   padding: 10px;
   margin-bottom: 10px;
-  background: #242424;
 }
 
 .correct-box {
